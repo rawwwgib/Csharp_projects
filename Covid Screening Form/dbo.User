@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[User] (
+    [UserID]      INT           NOT NULL,
+    [UserName]    NVARCHAR (50) NOT NULL,
+    [UserType]    NVARCHAR (10) NOT NULL,
+    [UserFlagged] BIT  NOT NULL,
+    PRIMARY KEY CLUSTERED ([UserID] ASC)
+);
+
