@@ -31,7 +31,7 @@ namespace TalaMohammedRagib
         private void Proceed_Click(object sender, EventArgs e)
         {
 
-            if (Convert.ToInt64(UserIdTxtBox.Text) <= 9999999 && Convert.ToInt64(UserIdTxtBox.Text) >= 1000000000)
+            if (Convert.ToInt64(UserIdTxtBox.Text) <= 9999999 || Convert.ToInt64(UserIdTxtBox.Text) >= 1000000000)
                 MessageBox.Show("Enter a valid 9 digit id");
             else
             {

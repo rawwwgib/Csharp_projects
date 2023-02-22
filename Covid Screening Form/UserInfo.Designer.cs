@@ -45,9 +45,10 @@ namespace TalaMohammedRagib
             // 
             this.UserID.AutoSize = true;
             this.UserID.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserID.Location = new System.Drawing.Point(59, 115);
+            this.UserID.Location = new System.Drawing.Point(44, 96);
+            this.UserID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.UserID.Name = "UserID";
-            this.UserID.Size = new System.Drawing.Size(57, 17);
+            this.UserID.Size = new System.Drawing.Size(46, 13);
             this.UserID.TabIndex = 0;
             this.UserID.Text = "UserID";
             // 
@@ -55,9 +56,10 @@ namespace TalaMohammedRagib
             // 
             this.UserName.AutoSize = true;
             this.UserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserName.Location = new System.Drawing.Point(59, 169);
+            this.UserName.Location = new System.Drawing.Point(44, 137);
+            this.UserName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(81, 17);
+            this.UserName.Size = new System.Drawing.Size(63, 13);
             this.UserName.TabIndex = 1;
             this.UserName.Text = "Username";
             // 
@@ -65,17 +67,19 @@ namespace TalaMohammedRagib
             // 
             this.UserType.AutoSize = true;
             this.UserType.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserType.Location = new System.Drawing.Point(59, 222);
+            this.UserType.Location = new System.Drawing.Point(44, 180);
+            this.UserType.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.UserType.Name = "UserType";
-            this.UserType.Size = new System.Drawing.Size(83, 17);
+            this.UserType.Size = new System.Drawing.Size(65, 13);
             this.UserType.TabIndex = 2;
             this.UserType.Text = "User Type";
             // 
             // Proceed
             // 
-            this.Proceed.Location = new System.Drawing.Point(134, 365);
+            this.Proceed.Location = new System.Drawing.Point(100, 297);
+            this.Proceed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Proceed.Name = "Proceed";
-            this.Proceed.Size = new System.Drawing.Size(91, 32);
+            this.Proceed.Size = new System.Drawing.Size(68, 26);
             this.Proceed.TabIndex = 3;
             this.Proceed.Text = "Proceed";
             this.Proceed.UseVisualStyleBackColor = true;
@@ -84,9 +88,10 @@ namespace TalaMohammedRagib
             // exit
             // 
             this.exit.BackColor = System.Drawing.Color.PowderBlue;
-            this.exit.Location = new System.Drawing.Point(274, 365);
+            this.exit.Location = new System.Drawing.Point(206, 297);
+            this.exit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(89, 32);
+            this.exit.Size = new System.Drawing.Size(67, 26);
             this.exit.TabIndex = 4;
             this.exit.Text = "Home";
             this.exit.UseVisualStyleBackColor = false;
@@ -94,17 +99,19 @@ namespace TalaMohammedRagib
             // 
             // UserIdTxtBox
             // 
-            this.UserIdTxtBox.Location = new System.Drawing.Point(226, 115);
+            this.UserIdTxtBox.Location = new System.Drawing.Point(170, 93);
+            this.UserIdTxtBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.UserIdTxtBox.Name = "UserIdTxtBox";
-            this.UserIdTxtBox.Size = new System.Drawing.Size(155, 22);
+            this.UserIdTxtBox.Size = new System.Drawing.Size(117, 20);
             this.UserIdTxtBox.TabIndex = 5;
             this.UserIdTxtBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.UserIdTxtBox_KeyPress);
             // 
             // UserNameTxtBox
             // 
-            this.UserNameTxtBox.Location = new System.Drawing.Point(226, 169);
+            this.UserNameTxtBox.Location = new System.Drawing.Point(170, 137);
+            this.UserNameTxtBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.UserNameTxtBox.Name = "UserNameTxtBox";
-            this.UserNameTxtBox.Size = new System.Drawing.Size(155, 22);
+            this.UserNameTxtBox.Size = new System.Drawing.Size(117, 20);
             this.UserNameTxtBox.TabIndex = 6;
             // 
             // UserTypeCombo
@@ -113,18 +120,20 @@ namespace TalaMohammedRagib
             this.UserTypeCombo.Items.AddRange(new object[] {
             "Student",
             "Employee"});
-            this.UserTypeCombo.Location = new System.Drawing.Point(226, 222);
+            this.UserTypeCombo.Location = new System.Drawing.Point(170, 180);
+            this.UserTypeCombo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.UserTypeCombo.Name = "UserTypeCombo";
-            this.UserTypeCombo.Size = new System.Drawing.Size(155, 24);
+            this.UserTypeCombo.Size = new System.Drawing.Size(117, 21);
             this.UserTypeCombo.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(53, 57);
+            this.label1.Location = new System.Drawing.Point(40, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 24);
+            this.label1.Size = new System.Drawing.Size(77, 18);
             this.label1.TabIndex = 8;
             this.label1.Text = "User Info";
             // 
@@ -134,10 +143,10 @@ namespace TalaMohammedRagib
             // 
             // UserInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LemonChiffon;
-            this.ClientSize = new System.Drawing.Size(486, 463);
+            this.ClientSize = new System.Drawing.Size(364, 376);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.UserTypeCombo);
             this.Controls.Add(this.UserNameTxtBox);
@@ -147,6 +156,7 @@ namespace TalaMohammedRagib
             this.Controls.Add(this.UserType);
             this.Controls.Add(this.UserName);
             this.Controls.Add(this.UserID);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UserInfo";
             this.Text = "User Information";
             this.ResumeLayout(false);
